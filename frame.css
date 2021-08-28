@@ -1,0 +1,190 @@
+body{
+    margin-top:0;
+    margin-bottom:0;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: 'Do Hyeon', sans-serif;
+
+}
+
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    height: 100vh;
+    grid-template-columns: 1000px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:'map ris1 ris2 ris3 ris4 ris5 ris6'
+                        'map allof allof allof allof allof allof'
+                        'map PET1 PET2 PET3 PET4 PET5 PET6'
+                        'map PAP1 PAP2 PAP3 PAP4 PAP5 PAP6';
+}
+
+.container div{
+    padding-top: 10px;
+}
+
+
+
+.btn{
+    background-color: pink;
+    width: 88%;
+    float: left;
+    padding: 5px;
+    margin-top:50%;
+    border: 2px solid hotpink;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.btn:hover{box-shadow: 5px 0 7px 5px gray, 6px 6px 7px 0 hotpink;}
+
+.bdr{
+    text-align:center;
+    border-bottom: 1px solid #000;
+}
+
+.edr{
+    text-align:center;
+    font-size: 30px;
+}
+.mp{
+    font-size:50px;
+}
+.cmp{
+    border:1px solid #000;
+    height:77vh;
+    margin-top:78px;
+}
+
+.mscr{
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size: 50px;
+    text-align: center;
+    border:1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.map{
+    grid-area: map;
+}
+
+
+.ris1{
+    grid-area: ris1;
+}
+.ris2{
+    grid-area: ris2;
+}
+.ris3{
+    grid-area: ris3;
+}
+.ris4{
+    grid-area: ris4;
+}
+.ris5{
+    grid-area: ris5;
+}
+.ris6{
+    grid-area: ris6;
+}
+
+
+.allof{
+    grid-area: allof;
+}
+
+
+.PET1{
+    grid-area: PET1;
+    border:1px solid #000;
+}
+.PET2{
+    grid-area: PET2;
+    border:1px solid #000;
+}
+.PET3{
+    grid-area: PET3;
+    border:1px solid #000;
+}
+.PET4{
+    grid-area: PET4;
+    border:1px solid #000;
+}
+.PET5{
+    grid-area: PET5;
+    border:1px solid #000;
+}
+.PET6{
+    grid-area: PET6;
+    border:1px solid #000;
+}
+
+
+.PAP1{
+    grid-area: PAP1;
+    border:1px solid #000;
+}
+.PAP2{
+    grid-area: PAP2;
+    border:1px solid #000;
+}
+.PAP3{
+    grid-area: PAP3;
+    border:1px solid #000;
+}
+.PAP4{
+    grid-area: PAP4;
+    border:1px solid #000;
+}
+.PAP5{
+    grid-area: PAP5;
+    border:1px solid #000;
+}
+.PAP6{
+    grid-area: PAP6;
+    border:1px solid #000;
+}
+
+
+
+
+
+
+
+
+/*
+flex-direction: column;
+flex-wrap:wrap;
+justify-content:center; 가로축
+alighn-items: center; 세로축
+align-content: space-around; 
+flex-grow: x; 여백 비율
+*/
+
+/*
+.item:nth-child(1){
+    flex: 1;
+
+}
+.item:nth-child(2){
+    flex: 2;
+
+}
+.item:nth-child(3){
+    flex: 1;
+
+}
+
+*/
