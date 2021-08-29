@@ -16,7 +16,7 @@ function btn_click(clicked_id){ //onclick event -> 버튼이 눌렸을의 함수
         document.getElementById("mainscr").innerHTML = "본관";
     }
     else if (clicked_id == 5){
-        document.getElementById("mainscr").innerHTML = "드림센터";
+        document.getElementById("mainscr").innerHTML = "하이테크";
     }
 }
 
