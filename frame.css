@@ -4,7 +4,15 @@ body{
     margin-right: 5px;
     margin-left: 5px;
     font-family: 'Do Hyeon', sans-serif;
+    background-color: #31383F;
 
+}
+
+h2{
+    color: #FEDD89;
+}
+p{
+    color: #FEDD89;
 }
 
 #map {
@@ -31,22 +39,23 @@ body{
 
 
 .btn{
-    background-color: pink;
+    background-color: #31383F;
     width: 88%;
     float: left;
     padding: 5px;
     margin-top:50%;
-    border: 2px solid hotpink;
+    border: 2px solid #F2E9EB;
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
     font-family: 'Do Hyeon', sans-serif;
+    color: #FEDD89;
 }
-.btn:hover{box-shadow: 5px 0 7px 5px gray, 6px 6px 7px 0 hotpink;}
+.btn:hover{box-shadow: 5px 0 7px 5px gray, 6px 6px 7px 0 #F2E9EB;}
 
 .bdr{
     text-align:center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #F2E9EB;
 }
 
 .edr{
@@ -57,7 +66,7 @@ body{
     font-size:50px;
 }
 .cmp{
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
     height:77vh;
     margin-top:78px;
 }
@@ -67,7 +76,7 @@ body{
     padding-bottom:50px;
     font-size: 50px;
     text-align: center;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 
 
@@ -113,53 +122,53 @@ body{
 
 .PET1{
     grid-area: PET1;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PET2{
     grid-area: PET2;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PET3{
     grid-area: PET3;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PET4{
     grid-area: PET4;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PET5{
     grid-area: PET5;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PET6{
     grid-area: PET6;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 
 
 .PAP1{
     grid-area: PAP1;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PAP2{
     grid-area: PAP2;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PAP3{
     grid-area: PAP3;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PAP4{
     grid-area: PAP4;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PAP5{
     grid-area: PAP5;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 .PAP6{
     grid-area: PAP6;
-    border:1px solid #000;
+    border:1px solid #F2E9EB;
 }
 
 
