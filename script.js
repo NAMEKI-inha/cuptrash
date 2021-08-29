@@ -1,3 +1,4 @@
+
 function btn_click(clicked_id){ //onclick event -> 버튼이 눌렸을의 함수를 임의로 선언. clicked_id는 onclick event가 발생했을 때의 id파라미터.
     if (clicked_id == 0){ // clicked_id 가 0일때 getElementById로 내가 변경하고싶은 html id를 가져오고, innerHTML을 이용해 HTML값을 바꾸어준다. 추가로, 만약 id가 숫자가아니라 char형태라면 ""로 감싸준다.
         document.getElementById("mainscr").innerHTML = "정석학술정보관";
