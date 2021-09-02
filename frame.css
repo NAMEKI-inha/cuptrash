@@ -66,9 +66,12 @@ p{
     font-size:50px;
 }
 .cmp{
-    border:1px solid #F2E9EB;
     height:77vh;
     margin-top:78px;
+}
+.img{ 
+    height:1050px;
+    width:1000px;
 }
 
 .mscr{

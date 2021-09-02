@@ -14,7 +14,6 @@ function initMap(){
         center: CenterOfInha,
     });
 
-
     new google.maps.Marker({
         position: JungSuck,
         map,
@@ -75,5 +74,4 @@ function initMap(){
         }
     });
 
-    
 }
